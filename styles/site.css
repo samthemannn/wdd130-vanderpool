@@ -1,0 +1,103 @@
+:root {
+    --primary: #3F4B3B;
+    --secondary: #44633F;
+    --accent: #568EA3;
+    --light: #EDF2F4;
+    --hover: #5CAB7D;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary);
+    background-color: var(--light);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px 8%;
+    color: var(--light);
+    background-color: var(--primary);
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    padding: 10px 16px;
+    color: var(--light);
+    background-color: var(--secondary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--hover);
+}
+
+main {
+    width: min(900px, 88vw);
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+h2 {
+    color: var(--secondary);
+}
+
+.hero-image {
+    display: block;
+    width: min(100%, 720px);
+    height: auto;
+    margin-top: 20px;
+}
+
+.comparison {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.comparison article {
+    padding: 20px;
+    background-color: white;
+    border: 2px solid var(--secondary);
+}
+
+.comparison img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 20px 8%;
+    color: var(--light);
+    text-align: center;
+    background-color: var(--primary);
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .comparison {
+        grid-template-columns: 1fr;
+    }
+}

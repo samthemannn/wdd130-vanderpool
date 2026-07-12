@@ -1,2 +1,19 @@
-# wdd130-vanderpool
-Website for, Taiki Vanderpool.
+# Dinosaur Hips
+
+Website for Taiki Vanderpool.
+
+Published site: https://samthemannn.github.io/wdd130-vanderpool/
+
+## Page Assignments
+
+- Lead developer: `index.html` homepage
+- Junior developer 1: `ornithischians.html`
+- Junior developer 2: `saurischians.html`
+
+## Site Plan Notes
+
+- Student/site-plan author: Spencer Vanderpool
+- Purpose: provide descriptions and comparisons of dinosaur hip structures that define saurischians and ornithischians.
+- Audience: anyone wanting to know more about dinosaur classifications.
+- Navigation: Home, Saurischians, Ornithischians.
+- Required navigation hover color: `#5CAB7D`.
