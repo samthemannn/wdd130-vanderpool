@@ -10,6 +10,8 @@ Published site: https://samthemannn.github.io/wdd130-vanderpool/
 - Junior developer 1: `ornithischians.html`
 - Junior developer 2: `saurischians.html`
 
+Junior developers should use `index.html` as the shared HTML structure and `SITE-PLAN-SUMMARY.md` for the simplified page content.
+
 ## Site Plan Notes
 
 - Student/site-plan author: Spencer Vanderpool
